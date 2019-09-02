@@ -1,3 +1,6 @@
+#!/system/bin/sh
+
+sleep 30
 chmod 755 /sys/class/power_supply/battery/constant_charge_current_max
 echo `expr 2000 * 1000` > /sys/class/power_supply/battery/constant_charge_current_max
 
